@@ -1,0 +1,26 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "Lazarus Network Token",
+    "scripts": {
+        "migrate": "rm -rf build && truffle migrate --reset --compile-all --network development"
+    },
+    "author": "Shachindra",
+    "keywords": [
+        "solidity",
+        "ethereum",
+        "smart",
+        "contracts",
+        "security",
+        "zeppelin"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "truffle-hdwallet-provider": "^1.0.10",
+        "truffle-plugin-verify": "^0.2.1"
+    },
+    "devDependencies": {
+        "truffle-flattener": "1.2.10",
+        "web3": "1.0.0-beta.34"
+    }
+}
